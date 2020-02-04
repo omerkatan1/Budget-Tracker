@@ -2,8 +2,30 @@
 <html>
     <head>
         <title>Budget Tracker</title>
-        
+
         <!-- css link -->
         <link rel="stylesheet" href="../css/style.css">
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     </head>
+
+
+
+    <body>
+        <header>
+            <h1 id="headerTitle">Budget App</h1>
+        </header>
+
+        <!-- this is the div where the textboxes are available for the user to insert money records -->
+        <div id="inputBox">
+            <form action="">
+                <label for="deposit">Deposit:</label>
+                <input type="text" id="deposit_input" name="deposit" placeholder="Enter your deposit amount">
+
+                <label for="expense">Expenses:</label>
+                <input type="text" id="expense_input" name="expense" placeholder="Enter your expenses">
+            </form>
+
+        </div>
+    </body>
 </html>
